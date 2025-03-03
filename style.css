@@ -38,7 +38,7 @@ body {
   width: 100%;
   top: 0;
   z-index: 1000;
-  padding: calc(var(--spacing) * 2) 0;
+  padding: calc(var(--spacing) * 1) 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
@@ -55,17 +55,19 @@ body {
   color: transparent;
   font-weight: 800;
   font-size: 1.5rem;
-  padding-top: 20px;
+  padding-top: 10px;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
 }
 
 /* Hero Section */
 .hero {
   min-height: 90vh;
   padding: calc(var(--spacing) * 12) 0;
-  padding-top: max(
-    100px,
-    calc(var(--navbar-height, 80px) + var(--spacing) * 4)
-  );
+  padding-top: calc(var(--spacing) * 20);
   display: flex;
   align-items: center;
   background: var(--background);
